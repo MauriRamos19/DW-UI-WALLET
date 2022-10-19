@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CategoriaTransaccion } from './model/interfaces';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ui-wallet';
+  categoria:CategoriaTransaccion = {nombre:'Food', valor: 666, fechaUltimaTransaccion:'12/12/2022'};
+
+
+  getCategoriasTransacciones():Array<CategoriaTransaccion> {
+    return [
+      {
+        nombre: '',
+      }
+    ];
+  }
+
+  guardarCategoriaTransaccion(categoria:CategoriaTransaccion) {
+
+  }
 }

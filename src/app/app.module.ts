@@ -7,12 +7,14 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
 import { CreditCardComponent } from './components/credit-card/credit-card.component';
+import { ServiceCategoryComponent } from './components/service-category/service-category.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    CreditCardComponent
+    CreditCardComponent,
+    ServiceCategoryComponent
   ],
   imports: [
     BrowserModule,

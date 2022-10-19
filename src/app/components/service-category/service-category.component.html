@@ -1,0 +1,14 @@
+<div class="transaction">
+    <div class="icon">
+        <span>
+            <fa-icon [icon]="faBurger"></fa-icon>
+        </span>
+    </div>
+    <div class="text">
+        <div class="title">{{categoriaTransaccion.nombre}}</div>
+        <div class="description">{{categoriaTransaccion.fechaUltimaTransaccion}}</div>
+    </div>
+    <div class="amount">
+        ${{categoriaTransaccion.valor}}
+    </div>
+</div>
